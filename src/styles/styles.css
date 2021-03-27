@@ -1,0 +1,8 @@
+.NavLink {
+  font-size: 20px;
+  color: currentColor;
+}
+
+.NavLinkActive {
+  color: red;
+}

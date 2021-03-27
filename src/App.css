@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+/* f99f53a5a0e694d60910f33dfe4d9d4d  API*/
+
+/* token eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmOTlmNTNhNWEwZTY5NGQ2MDkxMGYzM2RmZTRkOWQ0ZCIsInN1YiI6IjYwNTQ3ZDM0YTFkMzMyMDA5ZGE3Y2VjNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.RnPrdK049kogrHFrZMGWP42kP6vx4OYMcareRteIDHY */
+
+.Navigation {
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #a36b266b;
+}
+
+.NavLink {
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}

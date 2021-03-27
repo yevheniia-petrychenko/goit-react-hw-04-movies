@@ -1,0 +1,56 @@
+.card {
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.cardDescription {
+  display: flex;
+}
+
+.MoviePoster {
+  margin-right: 20px;
+}
+
+.backBtn {
+  height: 30px;
+  cursor: pointer;
+  padding: 10px 30px;
+  margin: 30px 10px;
+  background-color: rgba(158, 155, 152, 0.42);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px rgb(0 0 0 / 20%);
+  outline: none;
+}
+.genresList {
+  display: flex;
+  list-style: none;
+  padding-left: 10px;
+}
+.genre:not(:last-child) {
+  margin-right: 15px;
+  font-weight: 400px;
+}
+.link {
+  display: block;
+  padding: 5px 15px;
+  width: 60px;
+  margin: 0 10px;
+  background-color: rgba(158, 155, 152, 0.42);
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.list {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
